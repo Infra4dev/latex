@@ -20,5 +20,3 @@ RUN apt-get update -qq                                                       \
     && apt-get --purge remove -y .\*-doc$                                    \
     &&  apt-get clean -y                                                     \
     &&  rm -rf /var/lib/apt/lists/*
-
-USER latex
